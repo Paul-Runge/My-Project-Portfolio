@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    background-color: rgb(187, 244, 182);
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+}
+
+header h1 {
+    padding: 0 15px;
+    color: hsl(227deg 75% 60%);
+    display: flex;
+    align-items: center;
+    font-size: 32px;
+}
+
+h1 img {
+    height: 60px;
+    margin-left: 20px;
+}
+
+nav {
+    display: flex;
+    height: 50px;
+    width: 600px;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 15px;
+    font-size: 25px;
+    
+}
+
+a {
+    text-decoration: none;
+}
