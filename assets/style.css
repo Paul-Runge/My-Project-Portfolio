@@ -2,17 +2,23 @@
     box-sizing: border-box;
 }
 
+:root {
+    --blue: rgb(76, 110, 230); 
+    --green: rgb(187, 244, 182);
+    --header-padding: 0 15px;
+}
+
 header {
     display: flex;
-    background-color: rgb(187, 244, 182);
+    background-color: var(--green);
     align-items: center;
     justify-content: space-between;
     font-family: 'Poppins', sans-serif;
 }
 
 header h1 {
-    padding: 0 15px;
-    color: hsl(227deg 75% 60%);
+    padding: var(--header-padding);
+    color: var(--blue);
     display: flex;
     align-items: center;
     font-size: 32px;
@@ -29,7 +35,7 @@ nav {
     width: 600px;
     align-items: center;
     justify-content: space-around;
-    padding: 0 15px;
+    padding: var(--header-padding);
     font-size: 25px;
     
 }
