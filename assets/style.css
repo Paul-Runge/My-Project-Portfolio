@@ -1,3 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --blue: rgb(76, 110, 230); 
+    --green: rgb(187, 244, 182);
+    --header-padding: 0 15px;
+    --font-family: 'Poppins', sans-serif;
+}
+
 header {
     display: flex;
     background-color: var(--green);
