@@ -162,11 +162,11 @@ p {
         width: 100%;
         justify-content: center;
         align-items: center;
-        font-size: 7vw;
+        font-size: 8vw;
         margin: 5px 0;
     }
     header img {
-        height: 7vw;
+        height: 8vw;
     }
     nav {
         background-color: var(--blue);
@@ -177,6 +177,6 @@ p {
     }
     nav a {
         color: var(--green);
-        font-size: 3vw;
+        font-size: 4vw;
     }
 }
