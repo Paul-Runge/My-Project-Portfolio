@@ -1,14 +1,3 @@
-* {
-    box-sizing: border-box;
-}
-
-:root {
-    --blue: rgb(76, 110, 230); 
-    --green: rgb(187, 244, 182);
-    --header-padding: 0 15px;
-    --font-family: 'Poppins', sans-serif;
-}
-
 header {
     display: flex;
     background-color: var(--green);
@@ -115,12 +104,15 @@ p {
     justify-content: space-around;
     margin: 5px 0 10px 0;
     font-family: var(--font-family);
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 #contact address a {
     font-style: normal;
     font-size: 1.2rem;
     color: var(--blue);
+    margin: 5px; 
 }
 
 .project-1 {
