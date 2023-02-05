@@ -6,6 +6,7 @@
     --blue: rgb(76, 110, 230); 
     --green: rgb(187, 244, 182);
     --header-padding: 0 15px;
+    --font-family: 'Poppins', sans-serif;
 }
 
 header {
@@ -13,7 +14,7 @@ header {
     background-color: var(--green);
     align-items: center;
     justify-content: space-between;
-    font-family: 'Poppins', sans-serif;
+    font-family: var(--font-family);
     border: 3px solid var(--blue);
     margin: 10px;
 }
@@ -69,6 +70,12 @@ nav a {
     display: flex;
     justify-content: center;
     border-bottom: 2px solid var(--blue);
+    font-family: var(--font-family);
+}
+
+p {
+    line-height: 1.4;
+    font-family: 'Georgia', sans-serif;
 }
 
 #about div {
@@ -107,6 +114,7 @@ nav a {
     display: flex;
     justify-content: space-around;
     margin: 5px 0 10px 0;
+    font-family: var(--font-family);
 }
 
 #contact address a {
