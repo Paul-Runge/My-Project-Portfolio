@@ -123,7 +123,7 @@ p {
     font-style: normal;
     font-size: 1.2rem;
     color: var(--blue);
-    margin: 5px; 
+    margin: 5px 10px; 
 }
 
 .project-1 {
@@ -147,4 +147,26 @@ p {
 
 .placeholder-5{
     background-image: url(https://via.placeholder.com/375x250?text=);
+}
+
+@media screen and (max-width: 980px) {
+    header {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    header h1 {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        font-size: 7vw;
+        margin: 5px 0;
+    }
+    nav {
+        background-color: var(--blue);
+        width: 100%;
+    }
+    nav a {
+        color: var(--green);
+    }
 }
