@@ -9,6 +9,10 @@
     --font-family: 'Poppins', sans-serif;
 }
 
+body {
+    margin: 0 0 10px 0;
+}
+
 header {
     display: flex;
     background-color: var(--green);
@@ -16,7 +20,6 @@ header {
     justify-content: space-between;
     font-family: var(--font-family);
     border: 3px solid var(--blue);
-    margin: 10px;
 }
 
 header h1 {
@@ -47,7 +50,7 @@ a {
 }
 
 nav a {
-    font-size: 1.5rem;
+    font-size: 2vw;
     font-weight: bold;
     color: var(--blue);
 }
@@ -162,11 +165,18 @@ p {
         font-size: 7vw;
         margin: 5px 0;
     }
+    header img {
+        height: 7vw;
+    }
     nav {
         background-color: var(--blue);
         width: 100%;
+        height: 100%;
+        justify-content: space-evenly;
+        padding: 5px
     }
     nav a {
         color: var(--green);
+        font-size: 3vw;
     }
 }
