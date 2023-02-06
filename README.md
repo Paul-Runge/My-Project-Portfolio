@@ -10,4 +10,7 @@
   
 ## Mock-Up
 
-   ![Screenshot (6)](assets/images/Screenshot (6).png)
+Here is a preview of the webpage:
+![Screenshot (6)](https://user-images.githubusercontent.com/122774269/216865324-f9c753fd-41b7-4660-9f81-de1374425431.png)
+
+## Deployed Link
