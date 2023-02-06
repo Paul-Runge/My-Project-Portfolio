@@ -9,10 +9,16 @@
     --font-family: 'Poppins', sans-serif;
     --size2: 7vw;
     --size3: 8vw;
+    --placeholder-img: url(https://via.placeholder.com/375x250?text=);
+    --item-height: 100px;
 }
 
 body {
     margin: 0 0 10px 0;
+}
+
+a {
+    text-decoration: none;
 }
 
 header {
@@ -47,10 +53,6 @@ nav {
     
 }
 
-a {
-    text-decoration: none;
-}
-
 nav a {
     font-size: 2vw;
     font-weight: bold;
@@ -78,15 +80,16 @@ nav a {
     font-family: var(--font-family);
 }
 
-p {
-    line-height: 1.4;
-    font-family: 'Georgia', sans-serif;
-}
-
 #about div {
     width: 75%;
 }
 
+#about p {
+    line-height: 1.4;
+    font-family: 'Georgia', sans-serif;
+}
+
+/*project section*/
 .container {
     display: flex;
     flex-wrap: wrap;
@@ -94,20 +97,21 @@ p {
 }
 
 .item {
-    min-height: 100px;
-    max-height: 100px;
+    min-height: var(--item-height);
+    max-height: var(--item-height);
     display: flex;
     justify-content: space-between;
     margin: 10px;
     padding: 10px;
-    flex-basis: calc(49% - 1em);
+    flex-basis: calc(45% - 1em);
     border: 3px solid var(--blue);
     color: black;
     border-radius: 8px;
 }
 
+/*first project*/
 .item:first-child {
-    flex-basis: 100%;
+    flex-basis: 90%;
     min-height: 300px;
 }
 
@@ -131,29 +135,31 @@ p {
     margin: 5px 10px; 
 }
 
+/*project images*/
 .project-1 {
-    background-image: url(https://via.placeholder.com/375x250?text=);
+    background-image: var(--placeholder-img);
 }
 
 .placeholder-2{
-    background-image: url(https://via.placeholder.com/375x250?text=);
+    background-image: var(--placeholder-img);
 }
 
 
 .placeholder-3{
-    background-image: url(https://via.placeholder.com/375x250?text=);
+    background-image: var(--placeholder-img);
 }
 
 
 .placeholder-4{
-    background-image: url(https://via.placeholder.com/375x250?text=);
+    background-image: var(--placeholder-img);
 }
 
 
 .placeholder-5{
-    background-image: url(https://via.placeholder.com/375x250?text=);
+    background-image: var(--placeholder-img);
 }
 
+/*beginning responsive design*/
 @media screen and (max-width: 980px) {
     header {
         flex-wrap: wrap;
@@ -195,6 +201,6 @@ p {
         flex-basis: 100%;
     }
     .item:first-child {
-        min-height: 100px;
+        min-height: var(--item-height);
     }
 }
