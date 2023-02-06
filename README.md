@@ -10,4 +10,4 @@
   
 ## Mock-Up
 
-   ![Screenshot (6)](assets\images\Screenshot (6).png)
+   ![Screenshot (6)](assets/images/Screenshot (6).png)
