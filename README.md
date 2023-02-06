@@ -8,3 +8,6 @@
   
    Currently, this is a bare bones portfolio.  It is inteded to fulfill the requirements of the Module 2 Challenge for the bootcamp I am currently attending.  In the future it will evolve into a fully functioning professional showcase.
   
+## Mock-Up
+
+   ![Screenshot (6)](assets\images\Screenshot (6).png)
