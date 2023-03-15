@@ -15,4 +15,4 @@ Here is a preview of the webpage:
 
 ## Deployed Link
 
-https://paul-runge.github.io/module2-challenge/
+https://paul-runge.github.io/My-Project-Portfolio/
