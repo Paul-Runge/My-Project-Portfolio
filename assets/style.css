@@ -76,6 +76,7 @@ nav a {
 .page-section h2 {
     width: 85%;
     display: flex;
+    font-size: xx-large;
     justify-content: center;
     border-bottom: 2px solid var(--blue);
     font-family: var(--font-family);
@@ -95,12 +96,14 @@ nav a {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    text-align: center;
 }
 
 .item {
     min-height: var(--item-height);
     max-height: var(--item-height);
-    display: flex;
+    /* display: flex; */
+    flex-direction: column;
     justify-content: space-between;
     margin: 10px;
     padding: 10px;
@@ -111,10 +114,6 @@ nav a {
 }
 
 /*first project*/
-.item:first-child {
-    flex-basis: 90%;
-    min-height: 300px;
-}
 
 #contact div {
     width: 75%;
@@ -136,9 +135,19 @@ nav a {
     margin: 5px 10px; 
 }
 
-/*project images*/
+/* project divs */
+#project-1 {
+    flex-basis: 90%;
+    min-height: 300px;
+}
+
+/* project images */
 .project-1 {
-    background-image: var(--placeholder-img);
+    background-image: url(./images/weather_activity_demo.png);
+    background-size: cover;
+    background-position: top center;
+    color: white;
+    min-height: 285px;
 }
 
 .placeholder-2{
@@ -198,10 +207,7 @@ nav a {
         height: var(--size3);
     }
     .item,
-    .item:first-child {
+    #project-1 {
         flex-basis: 100%;
-    }
-    .item:first-child {
-        min-height: var(--item-height);
     }
 }
